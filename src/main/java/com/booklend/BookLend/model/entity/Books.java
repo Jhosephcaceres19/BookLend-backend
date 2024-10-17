@@ -17,9 +17,9 @@ public class Books {
     @Column(name="id_book")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idBook;
-    @Column(name="title")
+    @Column(name="title" )
     private String title;
-    @Column(name="author")
+    @Column(name= "author" )
     private String author;
     @Column(name="image")
     private String image;
