@@ -9,7 +9,6 @@ public class BookLendApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(BookLendApplication.class, args);
-		SpringApplication.run(BookLendApplication.class, args);
 	}
 
 }
